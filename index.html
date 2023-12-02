@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Hind:wght@300;400;500;600;700&family=Roboto&display=swap"
+        rel="stylesheet">
+    <script defer type="module" src="script.js"></script>
+    <title>Frontend Mentor | Results summary component</title>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+
+<body>
+    <div class="container">
+        <div class="inner-container">
+            <div class="result-header">Your Result</div>
+            <div class="circle">
+                <div class="circle-content">
+                    <div class="number">76</div>
+                    <div class="total">of 100</div>
+                </div>
+            </div>
+            <div class="result">Great</div>
+            <div class="result-text">Your performance exceed 65% of the people conducting the test here!</div>
+        </div>
+        <div class="summary-container">
+            <div class="summary-header">Summary</div>
+            <div class="pills-container">
+
+                <!-- 
+                <div class="pill reaction">
+                    <div class="pill-header">
+                        <img src="./assets/images/icon-reaction.svg" alt="">
+                        <div class="pill-text">Reaction</div>
+                    </div>
+                    <div class="score">
+                        <div>80 <span>/ 100</span></div>
+                    </div>
+                </div>
+                <div class="pill memory">
+                    <div class="pill-header">
+                        <img src="./assets/images/icon-memory.svg" alt="">
+                        <div class="pill-text">Memory</div>
+                    </div>
+                    <div class="score">
+                        <div>92 <span>/ 100</span></div>
+                    </div>
+                </div>
+                <div class="pill verbal">
+                    <div class="pill-header">
+                        <img src="./assets/images/icon-verbal.svg" alt="">
+                        <div class="pill-text">Verbal</div>
+                    </div>
+                    <div class="score">
+                        <div>61 <span>/ 100</span></div>
+                    </div>
+                </div>
+                <div class="pill visual">
+                    <div class="pill-header">
+                        <img src="./assets/images/icon-visual.svg" alt="">
+                        <div class="pill-text">Visual</div>
+                    </div>
+                    <div class="score">
+                        <div>73 <span>/ 100</span></div>
+                    </div>
+                </div> -->
+
+            </div>
+            <button class="btn">
+                <div class="btn-text">Continue</div>
+            </button>
+        </div>
+    </div>
+
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Peter Castillo</a>.
+    </div>
+
+    <template id="pill-template">
+        <div class="pill">
+            <div class="pill-header">
+                <img src="" alt="">
+                <div class="pill-text"></div>
+            </div>
+            <div class="score">
+                <div class="score-text"></div>
+                <div class="score-total">/ 100</div>
+            </div>
+        </div>
+    </template>
+
+</body>
+
+</html>
